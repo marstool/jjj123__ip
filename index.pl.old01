@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+#print "Content-type: text/html\n\n";
+print "Content-Type: text/html; charset=UTF-8\n\n";
+print <<HTML01;
+<html>
+<head>
+<title> dyn 测试 01 </title>
+</head>
+<body>
+<h1> dyn 测试 02 </h1>
+<p>dyn 测试 03 </p>
+</body>
+HTML01
+exit; 
